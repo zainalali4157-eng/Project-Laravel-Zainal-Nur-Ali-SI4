@@ -46,10 +46,49 @@
 
     {{-- jadi ini adalah container yang mana fungsi nya itu nanti menghilangkan tampilan folder yang ada di bawah
     agar tidak boros karena di navbar sudah di tampilkan --}}
-    <div class="container"style="margin-left: 35px">
+    <div class="container">
         <h1>Ini Adalah Halaman Home</h1>
     </div>
+    <hr>
     {{-- jadi menggunakan fungsi container --}}
+
+    {{--jadi selanjutnya itu membuat kolom dan baris, nah ketentuan nya itu untuk memenuhi seluruhh halaman
+    itu total kolom nya itu 12 kalau pun kita mau membuat 4 kolom nah tinggal kia bagi saja 12 di bagi 4--}}
+
+    {{--jadi di sini kita bisa menggunakan satu div yang mana kelas nya itu row--}}
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>What is Lorem Ipsum?</h4>
+            <p style="text-align: justify">
+                <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <h4>Why do we use it?</h4>
+            <p style="text-align: justify">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+                search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
+                evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
     <nav>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
