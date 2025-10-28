@@ -42,7 +42,7 @@
             </div>
         </div>
     </nav>
-    {{--nah di bagian ini tu un}}
+    {{--yang mana sampai ke bagian ini--}}
 
     {{-- jadi ini adalah container yang mana fungsi nya itu nanti menghilangkan tampilan folder yang ada di bawah
     agar tidak boros karena di navbar sudah di tampilkan --}}
@@ -59,26 +59,15 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <h4>What is Lorem Ipsum?</h4>
+            <h4>Apa itu laravel dan bootstrap dalam front end?</h4>
             <p style="text-align: justify">
-                <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
+                <b>Website</b> ini dibuat sebagai media latihan pengembangan antarmuka menggunakan Laravel dan Bootstrap. Setiap elemen dirancang untuk mempelajari cara kerja frid system,tataletak responsif, dan integrasi komponen front-end. Melalui proyek sederhana ini, diharapkan dapat memahami dasar pengembangan web yang efesien dan terstrutuk.
             </p>
         </div>
         <div class="col-sm-6">
-            <h4>Why do we use it?</h4>
+            <h4>Kenapa Harus menggunaan Laravel dan Bootstrap?</h4>
             <p style="text-align: justify">
-                It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-                desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-                search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-                evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+               <b>Website</b> ini dirancang dengan fokus pada kemudahan, kecepatan, dan efisiensi. Dibangun menggunakan framework Laravel yang modern, sistem ini menawarkan struktur kode yang rapi, keamanan tinggi, dan performa optimal. Dengan antarmuka yang responsif dan mudah dipahami, pengguna dapat mengakses fitur dengan lebih nyaman di berbagai perangkat.
             </p>
         </div>
     </div>

@@ -42,9 +42,77 @@
         </div>
     </nav>
 
-    <div class="container" style="margin-left: 35px">
+    <div class="container">
         <h1>Ini Adalah Halaman Mahasiswa</h1>
     </div>
+
+    {{-- Membuat Tabel --}}
+    {{--
+    Jadi untuk membuat baris di sini di perlukan t head dan t body yang mana t head untuk membuat judul t body untuk
+    membuat isi judul nya yang pertama itu kita perlu membuat table yang mana di dalam nya itu ada head sebagai judul
+    dan nanti untu isi dari head nya itu di isi ke dalam tr dan isi dari teks nya itu d masukan di th, untuk body juga
+    sama yang mana kalau ingin mengisi data di dalam tabel itu di masukkan ke dalam tr dan isi dari teks nya itu di
+    masukkan ke dalam td
+
+    jadi harus mengenal namanya itu
+    ROWSPAN= Untuk menggabungkan baris
+    COLSPAN= Untuk menggabungkan kolom
+    --}}
+
+
+    <table class="table {{--menggunakan class tabbel untuk membentuk tabbel--}}
+    table-bordered 
+    table-dark {{-- jadi ini itu untuk mewarnai tabble yang mana kalau di bootstrap warna hijau itu namnya success --}}
+    table-sm {{-- jadi ini untuk memperkecil ukuran tabel --}}
+     table-hover {{-- jadi ini untuk memberikan efek pada satu baris dalam tabel yang mana kalau di dekatkan kursor nya itu akan berubah warna pada baris kolom pada tabel --}}
+     text-center {{-- jadi ini untuk membuat teks rata tengah --}}">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Nim</th>
+                <th>Angkatan</th>
+                <th>Kelas</th>
+                <th colspan="2">TTL</th> {{-- nah jadi di sini saya ingin menggabungkan baris alamat dan ttl yang mana
+                saya harus menggunakan rowspan untuk menggabungkan nya di situ kita pilih ada berapa kolom yang di pilih
+                misalnya 2 berarti 2 kolom yang akan terisi untuk TTL --}}
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Zainal Nur Ali</td>
+                <td>0702232107</td>
+                <td>2023</td>
+                <td>Sistem Informasi 4</td>
+                <td>10 Juni 2004</td>
+                <td rowspan="3">Medan</td> {{-- jadi untuk mengabungkan baris itu tergatung di bagian mana akan di
+                gabungkan misalnya karena saya ingin mengagabungkan data alamat untuk ketiga alamat yang sudah di buat
+                yaitu ali,khaliq dan ibra maka kita harus memilih berapa baris yang akan kita gabungkan tergatung dengan
+                isi dari baris tersebut--}}
+
+            </tr>
+
+            <tr>
+                <td>Rizky Khaliq</td>
+                <td>0702232108</td>
+                <td>2023</td>
+                <td>Sistem Informasi 4</td>
+                <td>11 Juni 2004</td>
+
+            </tr>
+
+            <tr>
+                <td>Ibrahim Syahputra Harahap</td>
+                <td>0702232109</td>
+                <td>2023</td>
+                <td>Sistem Informasi 4</td>
+                <td>12 Juni 2005</td>
+
+            </tr>
+        </tbody>
+    </table>
+
 
     <nav>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
