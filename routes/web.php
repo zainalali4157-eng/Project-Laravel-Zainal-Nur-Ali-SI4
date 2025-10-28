@@ -25,9 +25,7 @@ Route::get('mahasiswa', function () {
 
 //contoh route array yang mana belajar itu menggunaka perulangan while  
 Route::get('array', function () {
-    $nilai_awal = 1; // jadi di sini kita punya nilai awal yaitu 1
-    while ($nilai_awal <= 10) { // lalu kita buat perulangan while yang mana nilai awalnya 1 jika kurang dari sama dengan 10 maka akan di jalankan echo dari dalam perulangan while tersebut yaitu masih pemula di kali dengan nilai awal
-        echo "saya belajar laravel  $nilai_awal x<br>"; // lalu di sini kita menampilkan echo dari dalam perulangan while
-        $nilai_awal++; // lalu nilai awalnya akan di tambah 1 setiap kali perulangan while ini di jalankan
+    for ($nilai = 1; $nilai <= 10; $nilai++) { //ini adalah contoh perulangan for yang mana nilai awal nya itu adalah satu kalau nilai nya kurang dari sepuluh maka nilai itu akan di tambah satu sampai berhenti di sepuluh yang mana nanti akan menampilkan angka dari satu sampai 10 kalau menguunaan kurang dari sama dengan tapi kalau menggunakan kurang dari maka nanti angka 10 tidak akan muncul cukup sampai 9
+        echo 'Perulangan Menggunakan For : ' . $nilai . 'x<br>'; // dan ini adalah contoh menampilkan angka dari satu sampai sepuluh yang mana di sini tanda titik dua di bawah itu adalah untuk menggabungkan string dengan variabel
     }
 });
